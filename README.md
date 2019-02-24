@@ -1,6 +1,6 @@
 # Struct Generator
 
-[![Build Status](https://travis-ci.org/shyim/StructGenerator.svg?branch=master)](https://travis-ci.org/shyim/DatabaseEntitiesBuilder)
+[![Build Status](https://travis-ci.com/shyim/StructGenerator.svg?branch=master)](https://travis-ci.com/shyim/DatabaseEntitiesBuilder)
 
 This package generates structs from a json file
 
