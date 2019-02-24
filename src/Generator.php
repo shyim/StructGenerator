@@ -64,6 +64,11 @@ class Generator
         $this->writer = $writer;
     }
 
+    public function setOptimizer(array $optimizer): void
+    {
+        $this->optimizers = $optimizer;
+    }
+
     protected function getOptimizer(): array
     {
         $optimizer = $this->optimizers;
