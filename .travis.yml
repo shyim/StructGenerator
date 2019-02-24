@@ -19,5 +19,6 @@ before_script:
   - if [[ "$(php --version | grep -cim1 xdebug)" -ge 1 ]]; then phpenv config-rm xdebug.ini; fi
 
 script:
+  - composer install
   - php ./examples/generate.php $GENERATOR
   - ./vendor/bin/phpunit -c tests
