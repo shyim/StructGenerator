@@ -1,0 +1,5 @@
+.idea
+.php_cs.cache
+examples/files/Advanced/*
+.phpunit.result.cache
+vendor

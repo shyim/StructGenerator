@@ -1,0 +1,29 @@
+{
+  "name": "shyim/struct-generator",
+  "license": "mit",
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*",
+    "zendframework/zend-code": "^3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0",
+    "zendframework/zend-code": "^3.3",
+    "nette/php-generator": "^3.2"
+  },
+  "suggest": {
+    "zendframework/zend-code": "Install nette/php-generator or zendframework/zend-code generator",
+    "nette/php-generator": "Install nette/php-generator or zendframework/zend-code generator"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shyim\\StructGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Shyim\\StructGenerator\\Tests\\": "tests/",
+      "Shyim\\StructGenerator\\Examples\\": "examples/files"
+    }
+  }
+}
